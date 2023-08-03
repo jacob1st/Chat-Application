@@ -13,9 +13,7 @@ First download the three files in the repository, make sure that the client and 
 
 To host the server on a LAN:
 
-  - Check the IP address of the machine that will be hosting the server: If on windows, open CMD and run "ipconfig". On Linux, open Terminal and run "ifc
-
-onfig".
+  - Check the IP address of the machine that will be hosting the server: If on windows, open CMD and run "ipconfig". On Linux, open Terminal and run "ifconfig".
   - You can leave the ADDR variable in server.py blank, and simply run the file. This will start up the server.
   - To connect from another machine from the same LAN, change the ADDR variable in client.py to the IP address from before, then run the file.
   

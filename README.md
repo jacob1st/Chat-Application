@@ -1,16 +1,19 @@
 # Chat-Application
 A sockets based python Tkinter chat application
 
-----
 An updated version of my previous chat application.
-
+----
+Demo Video:
+https://github.com/jacob1st/Chat-Application/assets/87782445/47e01bc8-d9da-42e9-af37-da9b62cf8992
 ----
 # Running the application:
 First download the three files in the repository, make sure that the client and preferances folder are in the same directory.
 
 To host the server on a LAN:
 
-  - Check the IP address of the machine that will be hosting the server: If on windows, open CMD and run "ipconfig". On Linux, open Terminal and run "ifconfig".
+  - Check the IP address of the machine that will be hosting the server: If on windows, open CMD and run "ipconfig". On Linux, open Terminal and run "ifc
+
+onfig".
   - You can leave the ADDR variable in server.py blank, and simply run the file. This will start up the server.
   - To connect from another machine from the same LAN, change the ADDR variable in client.py to the IP address from before, then run the file.
   

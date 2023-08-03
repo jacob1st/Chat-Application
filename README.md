@@ -3,6 +3,8 @@ A sockets based python Tkinter chat application
 
 An updated version of my previous chat application.
 ----
+![chat_picture](https://github.com/jacob1st/Chat-Application/blob/main/Demo/ChatAppImage.png)
+![chat_picture1](https://github.com/jacob1st/Chat-Application/blob/main/Demo/ChatAppImage01.png)
 Demo Video:
 https://github.com/jacob1st/Chat-Application/assets/87782445/47e01bc8-d9da-42e9-af37-da9b62cf8992
 ----

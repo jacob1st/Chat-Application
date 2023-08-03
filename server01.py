@@ -4,14 +4,6 @@ from datetime import datetime
 import re
 import time
 
-
-# Set up updating as working (possibly changeing customization options and writing to json)
-# admin perms
-# dming
-# refreshing (client keeps log, server-side)
-# user list upon info, and updating dropdown. also refreshing user list
-# error catching, especially upon closing
-
 class Client:
     def __init__(self, client_conn, client_address, nickname,  color):
         self.conn = client_conn
@@ -36,11 +28,9 @@ class Client:
             time.sleep(TIME_DELAY)
 
 def get_registered_users(registered_users):
-    # Using readlines()
     users = open('registeredUsers.txt', 'r')
     lines = users.readlines()
  
-    # Strips the newline character
     for line in lines:
         line = line.split(",")
         registered_users[line[0]] = line[1]

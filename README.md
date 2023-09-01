@@ -62,7 +62,7 @@ Messages from the client/server will be formatted as follows:
  ||Example Usage: |"UPDATE,nickname=new nickname;color=#FF00FF,"|
  |DISCON||Disconnecting from the chat|
  ||Example Usage: |"DISCON,,"|
- |REF||Refreshing the client; requests previous messages to be reset|
+ |REF||Refreshing the client; requests previous messages to be resent|
  ||Example Usage: |"REF,,"|
  |USER||Requests a list of all logged in users, and admins|
  ||Example Usage: |"USER,,"|
